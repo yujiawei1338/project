@@ -1,0 +1,259 @@
+.detail_warp{
+    width: 1200px;
+    margin: 50px auto;
+    font-size: 14px;
+    min-height: 500px;
+    position: relative;
+}
+
+
+
+.left{
+    float: left;
+    margin-left: 100px;
+    
+}
+
+.middle{
+    width: 398px;
+    height: 398px;
+    border: 1px solid #666;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+.middle>img{
+    width: 398px;
+    height: 398px;
+}
+
+
+.left_small{
+    height: 98px;
+    border: 1px solid skyblue;
+    width: 398px;
+}
+
+.left_small>li>img{
+    height: 98px;
+    float: left;
+}
+
+
+
+
+.big{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 468px;
+    top:0;
+    z-index: 66;
+    overflow:hidden;
+    border:1px solid skyblue;
+    display: none;
+}
+
+.big>img{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    left: 0; top:0;
+} 
+
+
+.mask{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.mask:hover{
+    cursor: move;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right{
+    width: 580px;
+    float: right;
+    margin-right: 50px;
+}
+.right>h4{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.right>h5{
+    min-height: 130px;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+
+.free{
+    margin-top: 20px;
+    margin: 0 0 10px;
+    font-size: 16px;
+}
+
+.price{
+    background-color: #ccc;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+}
+
+.price>p,.price>h3{
+   margin: 0 0 10px; 
+}
+
+.song{
+    margin: 10px 0;
+}
+
+.song>p{
+    padding: 30px 0 30px 10px;
+    background-color: #eee; 
+    margin: 10px 0; 
+}
+
+
+.shop{
+    margin:10px 0;
+}
+
+
+.number{
+    width: 60px;
+    height: 40px;
+    position: relative;
+    float: left;
+}
+
+.number>input{
+    width: 50px;
+    height: 40px;
+    border: none;
+    border: 1px solid #ccc;
+    padding-left: 6px;
+}
+
+.add{
+    position: absolute;
+    top:1px;
+    right: 3px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    outline: none;
+    border:none;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.reduce{
+    position: absolute;
+    top:21px;
+    right: 3px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    outline: none;
+    border:none;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.addShop{
+    float: left;
+    margin-left: 30px;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(223,48,51);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.goShop{
+    float: left;
+    margin-left: 30px;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(223,48,51);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.share>a{
+    color:#333;
+    margin-right:30px;
+}
+
+.share>a:hover{
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
